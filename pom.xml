@@ -2,8 +2,8 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.hj.selenium.framework</groupId>
 	<artifactId>selenium-framework</artifactId>
-	<packaging>pom</packaging>
-	<version>1.0.0</version>
+	<packaging>jar</packaging>
+	<version>1.1.1</version>
 
     <developers>
         <developer>
@@ -24,7 +24,7 @@
 		<jdk.version>1.7</jdk.version>
 		<selenium.version>3.14.0</selenium.version>
 		<log.version>1.7.5</log.version>
-        <spring.version>3.2.4.RELEASE</spring.version>
+        <spring.version>4.3.18.RELEASE</spring.version>
         <aspect.version>1.7.1</aspect.version>
 	</properties>
   
@@ -42,6 +42,8 @@
 			<artifactId>selenium-remote-driver</artifactId>
 			<version>${selenium.version}</version>
 		</dependency>
+
+
 		
 		<dependency>
 			<groupId>junit</groupId>
@@ -158,7 +160,7 @@
 		<dependency>
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
-			<version>23.0</version>
+			<version>23.6-jre</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.commons</groupId>

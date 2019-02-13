@@ -78,7 +78,7 @@ public class ScreenshotRule implements TestRule
 	public void onException(Throwable ex, WebDriver driver, String methodName)
 	{
 		String fileName = generateScreenShotFilename(methodName);
-		logger.debug("Create the sreenshot file name:" + fileName);
+		logger.info("Create the sreenshot file name:" + fileName);
 
 		try
 		{
